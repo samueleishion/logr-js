@@ -52,7 +52,6 @@ class Logr {
   error(...message) {
     const type = this._typify(chalk.red.bold, 'ERROR');
     this.print(console.error, type, ...message);
-    this.print(console.log, type, ...message);
   }
 
   success(...message) {
@@ -63,7 +62,6 @@ class Logr {
   warning(...message) {
     const type = this._typify(chalk.yellow.bold, 'WARNING');
     this.print(console.warn, type, ...message);
-    this.print(console.log, type, ...message);
   }
 
   info(...message) {
