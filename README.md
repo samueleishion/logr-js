@@ -2,5 +2,5 @@
 
 ```
 const Logr = require('logr-js');
-const logr = Logr();
+const logr = new Logr();
 ```
