@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - '12'
+  - '14'
+  - '15'
+sudo: required
+addons:
+  chrome: stable # have Travis install chrome stable.
