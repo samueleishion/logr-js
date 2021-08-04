@@ -1,0 +1,49 @@
+{
+  "name": "logr-js",
+  "version": "0.0.1",
+  "description": "Javascript logger for cli and browser-based applications.",
+  "main": "index.js",
+  "scripts": {
+    "lint:prettier": "prettier --config ./.prettierrc --write \"./src/*.js\"",
+    "lint:eslint": "eslint --config ./eslintrc.json --fix --ext .js ./src",
+    "test": "npm-run-all lint:* \"run-node ./tests.js\"",
+    "eslint": "eslint",
+    "gulp": "gulp",
+    "prettier": "prettier",
+    "run-node": "run-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samueleishion/logr-js.git"
+  },
+  "author": "samueleishion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samueleishion/logr-js/issues"
+  },
+  "homepage": "https://github.com/samueleishion/logr-js#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "moment": "^2.29.1"
+  },
+  "keywords": [
+    "logr",
+    "logger",
+    "console",
+    "log",
+    "cli",
+    "error",
+    "handling",
+    "documentation",
+    "documenting",
+    "automation"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.3.2",
+    "run-node": "^2.0.0"
+  }
+}

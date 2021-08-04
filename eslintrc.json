@@ -1,0 +1,17 @@
+{
+  "plugins": [],
+  "parser": "babel-eslint",
+  "ignorePatterns": [],
+  "rules": {
+    "jsx-quotes": ["error", "prefer-double"],
+    "no-console": "error"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".json"]
+      }
+    },
+    "propWrapperFunctions": []
+  }
+}
