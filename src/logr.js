@@ -75,4 +75,9 @@ class Logr {
   }
 }
 
-module.exports = Logr;
+const log = new Logr();
+
+module.exports = {
+  Logr,
+  logr
+};
