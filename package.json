@@ -1,5 +1,5 @@
 {
-  "name": "logr-js",
+  "name": "@samueleishion/logr-js",
   "version": "0.0.1",
   "description": "Javascript logger for cli and browser-based applications.",
   "main": "index.js",
